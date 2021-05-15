@@ -1,0 +1,64 @@
+body {
+    text-align: center;
+    background-color: chartreuse;
+}
+
+.image {
+    width: 175px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+
+.menu {
+    list-style: circle;
+    font-family: sans-serif;
+    position: fixed;
+    top: 0px;
+    right: 10px;
+    z-index: -1;
+    cursor:n-resize;
+    width: 100%;
+}
+
+.link {
+    float: right;
+    color: black;
+    padding-top: 15px;
+    padding-left: 0px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    font-family: fantasy;
+    font-size: 15px;
+}
+
+.link:hover {
+    background-color: red;
+}
+
+#bio {
+    padding: 50px;
+    text-align: center;
+}
+
+.line {
+    height: 6px;
+    background-color: #000;
+    width: 70px;
+    margin: 8px auto;
+}
+
+#welcome {
+    position: absolute;
+    height: 800px;
+    color: #FFFFFF;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.83;
+    background: linear-gradient(#60ebeb 0%, #27ae60 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+    z-index: -9
+}
